@@ -1,3 +1,4 @@
+import { CHECKOUT_URL } from '../constants';
 import { Award, BookOpen, Users } from 'lucide-react';
 
 const credentials = [
