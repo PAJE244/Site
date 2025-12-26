@@ -178,7 +178,6 @@ export const Benefits = () => {
 import { useState, useEffect } from 'react';
 import { X, Gift, ArrowRight } from 'lucide-react';
 
-const CHECKOUT_URL = 'https://pay.kirvano.com/349f28d0-a6e7-49d5-bddd-1a0bb7edda44';
 
 export const ExitIntent = () => {
   const [isVisible, setIsVisible] = useState(false);
