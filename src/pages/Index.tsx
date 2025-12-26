@@ -323,7 +323,6 @@ export const FAQ = () => {
 
 import { ArrowRight } from 'lucide-react';
 
-const CHECKOUT_URL = 'https://pay.kirvano.com/349f28d0-a6e7-49d5-bddd-1a0bb7edda44';
 
 export const Footer = () => {
   return (
@@ -468,7 +467,6 @@ export const Header = () => {
 import { useState, useEffect } from 'react';
 import { ArrowRight, Flame, Clock } from 'lucide-react';
 
-const CHECKOUT_URL = 'https://pay.kirvano.com/349f28d0-a6e7-49d5-bddd-1a0bb7edda44';
 
 export const Hero = () => {
   const [timeLeft, setTimeLeft] = useState({
@@ -671,7 +669,6 @@ export const Preview = () => {
 
 import { Check, Shield, CreditCard, Lock, ArrowRight } from 'lucide-react';
 
-const CHECKOUT_URL = 'https://pay.kirvano.com/349f28d0-a6e7-49d5-bddd-1a0bb7edda44';
 
 const included = [
   'Ebook completo "Desperte Seu Prime" (150+ páginas)',
