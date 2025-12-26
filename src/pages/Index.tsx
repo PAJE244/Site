@@ -867,13 +867,8 @@ export const SocialProof = () => {
   );
 };
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Playfair+Display:wght@700;800;900&display=swap');
 
-@layer base {
   :root {
     --background: 0 0% 7%;
     --foreground: 0 0% 100%;
@@ -922,7 +917,7 @@ export const SocialProof = () => {
   }
 }
 
-@layer base {
+
   * {
     @apply border-border;
   }
